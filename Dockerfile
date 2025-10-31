@@ -3,6 +3,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git libgl1-mesa-glx
 RUN git clone https://github.com/hokimtam/IDM-VTON.git .
 COPY requirements.txt .
+RUN pip install --no-cache-dir huggingface_hub==0.17.3 diffusers==0.24.0
 RUN pip install --no-cache-dir -r requirements.txt
 COPY handler.py .
 CMD ["python", "-u", "handler.py"]
