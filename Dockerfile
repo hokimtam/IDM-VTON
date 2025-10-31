@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir \
     Pillow==10.0.0 \
     torch==2.1.0 \
     torchvision==0.15.0 \
-    opencv-python==4.10.0 \
+    opencv-python==4.9.0.80 \
     tqdm==4.66.1 \
     gradio==4.0.0
 
