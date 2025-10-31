@@ -1,0 +1,10 @@
+diffusers==0.24.0
+transformers==4.36.2
+accelerate==0.25.0
+safetensors==0.4.2
+Pillow==10.0.0
+gradio==4.0.0
+opencv-python
+tqdm
+torch==2.1.0
+torchvision
